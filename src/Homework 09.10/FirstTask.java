@@ -2,11 +2,13 @@ import java.util.Arrays;
 
 public class FirstTask {
     public static void quickSort(int[] array, int low, int high) {
-        if (array.length == 0)
+        if (array.length == 0) {
             return;
+        }
 
-        if (low >= high)
+        if (low >= high) {
             return;
+        }
 
         int middle = low + (high - low) / 2;
         int base = array[middle];
@@ -38,6 +40,7 @@ public class FirstTask {
             quickSort(array, i, high);
     }
 
+
     public static void main(String[] args) {
         int x[] = {1,3,7,2,8,14,7,23,5};
         int low = 0;
@@ -47,4 +50,5 @@ public class FirstTask {
         System.out.println(Arrays.toString(x));
     }
 }
+
 
