@@ -1,5 +1,8 @@
+// Сортировка слов
 // Cложность по времени O(n*n)
 // Сложность по памяти O(n)
+
+
 public class ThirdTask {
 
     public static void wordSort(String[] array, int minDlina) {

@@ -1,3 +1,5 @@
+// Проверка четных чисел по диагоналям
+
 import java.util.Scanner;
 
 public class FourrClass {

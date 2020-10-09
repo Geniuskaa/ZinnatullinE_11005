@@ -1,3 +1,5 @@
+// Бинарный поиск
+
 
 public class SecondTask {
     public static void binarySearch(int[] array, int number, int low, int high) {
