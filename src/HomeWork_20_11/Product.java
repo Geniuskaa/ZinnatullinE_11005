@@ -32,4 +32,13 @@ public class Product {
     public String getNameOfProduct() {
         return nameOfProduct;
     }
+
+    @Override
+    public String toString() {
+        return "Product{" +
+                "nameOfProduct='" + nameOfProduct + '\'' +
+                ", price=" + price +
+                ", manufacturer='" + manufacturer + '\'' +
+                '}';
+    }
 }
